@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RESUME | SHAYNE TROSDAHL SENIOR ENGINEER/ARCHITECT</title>
+    <title>Shayne Trosdahl Senior Engineer/Architect</title>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="resume.css">
     <link rel="stylesheet" href="resumeprint.css" media="print">
 </head>
 
 <body>
+
     <div class="toolbar">
         <button id="exportButton" class="button" title="Print or Save to PDF">
             <svg class="button-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -49,6 +50,14 @@
                     <p>
                         I am seeking a dynamic role where I can harness my expertise in building 
                         scalable, maintainable and easily understandable systems.
+                    </p>
+                    <p>
+                        <ul>
+                            <li><a href="#" rel="nofollow" class="contact" data-type="m">email</a></li>
+                            <li><a href="https://linkedin.com/in/trozdol" target="_blank">linkedin.com</a></li>
+                            <li><a href="https://github.com/trozdol" target="_blank">github.com</a></li>
+                            <li>(Due to contracts my portfolio is available upon request)</li>
+                        </ul>
                     </p>
                 </aside>
 
@@ -95,7 +104,7 @@
                         </ul>
                         <ul>
                             <h2>Other</h2>
-                            <li>Node</li>
+                            <li>NodeJS</li>
                             <li>NGINX</li>
                             <li>Apache</li>
                             <li>WebSphere 8.5/9</li>
@@ -127,7 +136,6 @@
             </div>
         </section>
 
-
         <h1>Professional Experience:</h1>
 
         <!-- Vast Bank -->
@@ -152,6 +160,8 @@
                     <span>aws</span>
                     <span>docker</span>
                     <span>containers</span>
+                    <span>plaid</span>
+                    <span>socure</span>
                 </div>
             </aside>
             <article class="job-details">
@@ -217,12 +227,12 @@
                 <h2>Boomtown Networks Inc. <span>2021 - 2022</span></h2>
                 <h3>Senior Software Engineer</h3>
 
-                <p>Customer Suppport Management Platform</p>
                 <h3>TECH:</h3>
                 <div class="tags">
                     <span>extjs</span>
                     <span>vue</span>
                     <span>nodejs</span>
+                    <span>javascript</span>
                     <span>typescript</span>
                     <span>google cloud</span>
                     <span>docker</span>
@@ -231,6 +241,7 @@
                     <span>openfire</span>
                     <span>php</span>
                     <span>pubsub</span>
+                    <span>docker</span>
                 </div>
             </aside>
             <article class="job-details">
@@ -266,6 +277,7 @@
                     <span>mysql</span>
                 </div>
             </aside>
+
             <article class="job-details">
                 <ul class="job-list">
                     <h2>Summary:</h2>
@@ -284,6 +296,7 @@
             <aside class="job-overview">
                 <h2>Sencha Inc. <span>2020</span></h2>
                 <h3>Application Development Consultant</h3>
+                
                 <h3>TECH:</h3>
                 <div class="tags">
                     <span>extjs</span>
@@ -355,8 +368,6 @@
             <aside class="job-overview">
                 <h2>Orora Packaging <span>2012 - 2019</span></h2>
                 <h3>Developer/Designer</h3>
-
-                <h3>Mobile CRM for Sales Reps</h3>
                 
                 <h3>TECH:</h3>
                 <div class="tags">
@@ -470,7 +481,7 @@
             </article>
         </section>
 
-        <h1>Additional Work History:</h1>
+        <h1>Additional Experience:</h1>
 
         <section class="job row">
             <aside>
@@ -545,7 +556,7 @@
         <h1>Contact:</h1>
 
         <footer>
-            <a href="#" rel="nofollow" class="contact" data-type="m">mail</a>
+            <a href="#" rel="nofollow" class="contact" data-type="m">email</a>
             <a href="https://linkedin.com/in/trozdol" target="_blank">linkedin.com</a>
             <a href="https://github.com/trozdol" target="_blank">github.com</a>
         </footer>
@@ -563,7 +574,7 @@
             mo: [109, 97, 105, 108, 116, 111, 58],
             m: [115, 104, 97, 121, 110, 101, 64, 116, 114, 111, 122, 100, 111, 108, 46, 99, 111, 109]
         };
-        
+
         window.addEventListener('beforeprint', renderContact);
         document.addEventListener('scroll', renderContact);
         links = document.querySelectorAll('.contact');
@@ -599,7 +610,6 @@
 
             document.title += ` ${versionNumber}`;
         }
-    
 
         // Handle Save/Print button click event. This is really 
         // just to hint to viewer that this is page is intended 
