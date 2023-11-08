@@ -1,0 +1,14 @@
+version: '3'
+
+name: 'trozdol-resume'
+
+services:
+
+  web:
+    container_name: web
+    image: nginx:latest
+    volumes:
+      - ./:/usr/share/nginx/html
+    ports: 
+      - 80:80
+      - 443:443
