@@ -49,7 +49,9 @@ header {
     flex-flow: wrap;
     justify-content: space-between;
 }
-
+b {
+    font-weight: 500;
+}
 a {
     color: var(--link-color);
 }
